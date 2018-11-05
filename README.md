@@ -23,6 +23,7 @@ What we're going to cover
     * keep files small
     * proper class naming is key
     * when should I use an ID and when should I use a selector?
+    * stay consistent with naming!!!
   * CSS is the most modern styling tool supported by all browsers without transpilation
   * as with all good code, good CSS should be close to human-readable.
   * things related should be in the same file and close together.
