@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+header {
+  background: white;
+  color: red;
+  font-size: 2em;
+  padding: 2em;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+  .emoji {
+    float: right;
+    width: 6em;
+    height: 6em;
+    margin: 2em;
+    background: url(thinking.png) no-repeat;
+    background-size: cover;
+  }
+
+  h2 {
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px dotted red;
+  }
+
+  .aside {
+    float: left;
+    width: 15em;
+    margin: 1em 2em 1em -5em;
+    padding: 2em;
+    background: #272298;
+    font-style: italic;
+  }
+
+  p {
+    line-height: 1.4em;
+  }

@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgb(228, 226, 214);
+  font-family: serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+header {
+  background: white;
+  padding: 3em;
+}
+
+main {
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0em 0.1em 0.5em rgba(0, 0, 0, 0.16);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  flex-grow: 1;
+  padding: 2em;
+}
+
+  main > * {
+    display: inline-block;
+    width: calc(25% - 35px);
+    height: 300px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .emoji {
+    background: url(rolling.png) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  h2 {
+  }
+
+  .aside {
+  }
+
+  p {
+    line-height: 1.4em;
+  }
