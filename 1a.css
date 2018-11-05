@@ -50,10 +50,16 @@ main {
 
     .aside code {
       background: rgba(0, 0, 0, 0.8);
-      padding: 2px 8px;
-      border-radius: 4px;
     }
 
   p {
     line-height: 1.4em;
+  }
+
+  code {
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    vertical-align: 2px;
   }

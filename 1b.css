@@ -48,12 +48,15 @@ main {
     background-size: cover;
   }
 
-  h2 {
-  }
-
-  .aside {
-  }
-
   p {
     line-height: 1.4em;
   }
+
+  code {
+    transition: all 1s;
+  }
+
+    code:hover {
+      color: red;
+      font-size: 200%;
+    }
